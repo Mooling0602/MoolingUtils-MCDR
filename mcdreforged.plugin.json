@@ -1,0 +1,14 @@
+{
+	"id": "mutils",
+	"version": "0.0.1",
+	"name": "MoolingUtils",
+	"description": {
+		"en_us": "Mooling0602's MCDR plugin dev libs.",
+		"zh_cn": "木泠的MCDR插件开发库。"
+	},
+	"dependencies": {
+		"mcdreforged": ">=2.1.0"
+	},
+	"author": "Mooling0602",
+    "link": "https://github.com/Mooling0602/MoolingUtils-MCDR"
+}
