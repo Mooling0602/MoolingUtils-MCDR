@@ -1,6 +1,6 @@
 {
 	"id": "mutils",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"name": "MoolingUtils",
 	"description": {
 		"en_us": "Mooling0602's MCDR plugin dev libs.",
