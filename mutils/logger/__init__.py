@@ -1,4 +1,5 @@
-import datetime
+## A simple logger directly uses print, compatible with MCDR's logger.
+import datetime # Provide localtime info for print logs.
 
 from typing import Optional
 from enum import Enum

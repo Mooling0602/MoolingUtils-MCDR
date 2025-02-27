@@ -1,3 +1,6 @@
+## [zh_CN]
+## 将含有Minecraft格式化代码的文本在终端环境使用ANSI转义符正确渲染上文本颜色
+## 需要MCDReforged的文本组件，但不需要运行在插件中也能使用
 import re
 
 from mcdreforged.minecraft.rtext.style import *

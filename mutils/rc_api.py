@@ -1,3 +1,4 @@
+## This module need MCDR plugin env.
 from mcdreforged.api.types import CommandSource, ServerInterface
 
 
