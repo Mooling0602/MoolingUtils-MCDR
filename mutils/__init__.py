@@ -19,6 +19,18 @@ def execute_if(condition: bool | Callable[[], bool]):
         return wrapper
     return decorator
 
+def extract_file(server: PluginServerInterface, file_path, target_path):
+    '''
+    Extract bundled file to target path from the specified plugin.
+    
+    :param plugin_name: The name of the plugin containing the bundled file.
+    :param file_path: The path of the bundled file.
+    :param target_path: The path to extract the file, filename must be included.
+    '''
+    with server.open_bundled_file(file_path) as file_handler:
+        with open(target_path, 'wb') as target_file:
+            target_file.write(file_handler.read())
+
 def on_load(server: PluginServerInterface, prev_module):
     load_tip = "MoolingUtils loaded successfully!"
     if MCDRLocale != "en_us":
