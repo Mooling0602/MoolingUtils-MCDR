@@ -35,7 +35,7 @@ def tr(server: PluginServerInterface, tr_key: str, return_str: Optional[bool] = 
         return tr_to_str
     else:
         return translation
-    
+
 __all__ = ["tr"]
 import sys
 sys.modules[__name__] = tr
